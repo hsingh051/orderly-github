@@ -1,0 +1,146 @@
+.sidebar {
+    margin-top: 30px;
+    .sticky-offset {
+        top: 70px;
+    }
+
+    //Order Sidebar
+    .orders {
+        .today-grabber {
+            .title {
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            }
+            .value {
+                font-weight: 800;
+                font-size: 2rem;
+            }
+            width: 100%;
+            border-radius: 4px;
+            padding: 15px;
+            background-color: $gray-100;
+            margin-bottom: 15px;
+        }
+        .today-orders, .today-pending {
+            .title {
+                font-size: 0.8rem;
+                letter-spacing: 1.3px;
+            }
+            .value {
+                font-weight: 800;
+            }
+            color: white;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 8px 5px;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .today-orders {
+            background-color: $green;
+        }
+        .today-pending {
+            background-color: $gold;    
+        }
+        .today-list {
+            .list-item {
+                padding: 10px 0;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                border-bottom: 1px solid $gray-200;
+            }
+            .name {
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: $gray-400;
+            }
+            .amount {
+                font-size: 1.3rem;
+                font-weight: 700;
+                color: $gold;
+            }
+            .time {
+                font-size: 0.7rem;
+                font-weight: 700;
+                color: $gray-500;
+            }
+            .credit-card {
+                font-weight: 200;
+                color: $gray-400;
+                text-align: right;
+                text-transform: italic;
+                letter-spacing: 2px;
+            }
+            .status {
+                &.paid {
+                    color: $green;
+                }
+                text-align: right;
+                font-weight: 800;
+                font-size: 0.7rem;
+            }
+            overflow-y: scroll;
+        }
+    }
+
+    //Choose Credit Card
+    .choose-credit-card {
+        .order-total {
+            .title {
+                text-transform: uppercase;
+                letter-spacing: 4px;
+            }
+            .value {
+                font-weight: 800;
+                font-size: 1.6rem;
+            }
+            width: 100%;
+            border-radius: 4px;
+            padding: 15px;
+            background-color: $gray-100;
+            margin-bottom: 15px;
+        }
+        .order-items {
+            .title {
+                font-size: 0.8rem;
+                letter-spacing: 1.3px;
+            }
+            .value {
+                font-weight: 800;
+            }
+            text-transform: uppercase;
+            text-align: center;
+            padding: 8px 5px;
+            border-radius: 4px;
+            width: 100%;
+        }
+        .order-items {
+            background-color: $gray-100;
+        }
+        .details {
+
+        }
+        .detail-item {
+            .title {
+                font-size: 0.8rem;
+                font-weight: 600;
+                color: $gray-400;
+            }
+            .quantity {
+                strong {
+                    font-size: 0.7rem;
+                    color: $gray-400;
+                }
+            }
+            .price {
+                font-size: 1rem;
+                font-weight: 700;
+                color: $gold;
+            }
+            padding: 10px 0;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid $gray-200;
+        }
+    }
+}

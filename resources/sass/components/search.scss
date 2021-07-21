@@ -1,0 +1,22 @@
+// Search Box Shared across all instances of Algolia Vue Integration
+
+.ais-SearchBox {
+    
+}
+
+.ais-SearchBox-input {
+    &:hover, &:active, &:focus {
+        outline: none;
+        border: 1px solid $gold;
+        transition: all 1s;
+    }
+    border: 1px solid white;
+    background-color: $gray-100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 1s;
+}
+
+.ais-SearchBox-submit {
+    
+}

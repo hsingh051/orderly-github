@@ -1,0 +1,84 @@
+.credit-card {
+    .name {
+        font-size: 1.2rem;
+        letter-spacing: 0.1rem;
+
+    }
+    .logo {
+        float: right;
+        max-width: 100%;
+    }
+
+    //Themes based on card type
+    .card-body {
+        .field-container {
+            .field-text {
+                background-color: lighten($color: $blue, $amount: 7)
+            }
+        }
+         .btn-pay {
+            &:hover, &:focus, &:active {
+                color: darken($color: $blue, $amount: 10);
+            }
+        }
+        .field-label {
+            color: darken($color: $blue, $amount: 10);
+        }
+        background-color: $blue;
+    }
+    .field-container {
+        .field-label {
+            font-weight: 600;
+            font-size: 0.9rem;
+            letter-spacing: 0.1rem;
+            margin-bottom: 3px;   
+        }
+        .field-text {
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            padding: 5px 10px;
+            border-radius: 4px;
+            text-align: right;
+            width: 100%;
+        }
+    }
+    .card-body {
+        border-radius: 17px;
+        padding: 30px;
+    }
+    .card-strip {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .card-company {
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .billing {
+        font-size: 0.9rem;
+    }
+    .btn-pay {
+        &:hover, &:focus, &:active {
+            background-color: white;
+            transition: all 0.4s;
+        }
+        font-size: 0.9rem;
+        margin-top: 30px;
+        border: 1px solid white;
+        border-radius: 25px;
+        transition: all 0.4s;
+        color: lighten($color: $white, $amount: 40);
+        padding: 10px 20px;
+        letter-spacing: 0.1rem;
+    }
+    border: none;
+    color: white;
+}
+
+.new-card {
+    &:hover {
+        color: white;
+    }
+    color: $primary;
+    cursor: pointer;
+}

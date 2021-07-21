@@ -1,0 +1,55 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+// Vendors
+@import '~instantsearch.css/themes/algolia-min';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Variables
+@import 'variables';
+
+// Components
+@import 'components/table';
+@import 'components/search';
+@import 'components/navbar';
+@import 'components/sidebar';
+@import 'components/order-cards';
+@import 'components/customer-cards';
+@import 'components/credit-card';
+
+// Layouts
+
+
+//GLOBAL
+body {
+    background-color: white;
+    margin-top: 58px;
+}
+
+// Support
+.ifram-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.support-iframe {
+    position: absolute;
+    top: 55px; left: 0; right: 0; bottom: 0;
+}
+
+.page {
+    padding-top: 20px;
+}
+
+
+// AIS HITS Bottom Pagination for Algolia
+.ais-Hits {
+    margin-bottom: 20px;
+}
+
+.ais-Highlight {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

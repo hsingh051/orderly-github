@@ -1,0 +1,28 @@
+.order-cards {
+    .ais-Hits-list {
+
+    }
+    .ais-Hits-item {
+        width: calc(50% - 1rem);
+        border-radius: 4px;
+        background-color: $gray-100;
+        border: none;
+        box-shadow: none;
+    }
+    .order-item {
+        .item-title {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: $gray-400;
+            width: 100%;
+        }
+        .amount, .amount .ais-Highlight {
+            color: $gold;
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+    }
+    .ais-Highlight {
+
+    }
+}

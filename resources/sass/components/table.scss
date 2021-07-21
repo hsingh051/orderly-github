@@ -1,0 +1,18 @@
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #EBEDFF;
+}
+.table-row {
+    &:hover, &:focus, &:active {
+        background-color: #C2C6F9 !important;
+        transition: all 0.3s;
+    }
+    cursor: pointer;
+}
+
+.success {
+    background-color: $green;
+}
+
+.error {
+    background-color: $red;
+}
